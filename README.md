@@ -1,7 +1,7 @@
 # SPIE WEBSITE
 WHY SPIE?<br>
 SPIE is an international society advancing an interdisciplinary approach to the science and application of Light Technology. SPIE Student Membership is your gateway to a promising career with the Optics industry.<br><be>
-<img src="\icons\logo-dark.png" style="align:centre;">
+<span align="center"><img src="\icons\logo-dark.png""></span>
 WHAT ARE STUDENTS DOING?<br><br>
 Over the past year students from our club have been working hard to increase awareness towards Optics & Photonics.
 Here are some of the things students have done:<br><br>
