@@ -19,7 +19,7 @@
     box-shadow: 5px 5px #ac1122; /* Resetting box-shadow */
 }
 
-.slide-in {
+/*.slide-in {
     transform: translateY(0);
     opacity: 1;
 } */
