@@ -7,22 +7,22 @@
     padding: 20px;
     box-shadow: 5px 5px #ac1122;
     line-height: 20px;
-/*     transform: translateY(100%) scale(0.95);
+    transform: translateY(100%) scale(0.95);
     opacity: 0;
     transition: transform 0.5s, opacity 0.5s, border-width 0.5s, box-shadow 0.5s; /* Added box-shadow transition */ 
 }
 
-/* .why_spie.slide-in, .what.slide-in, .future.slide-in {
+.why_spie.slide-in, .what.slide-in, .future.slide-in {
     transform: translateY(0) scale(1);
     opacity: 1;
     border-width: 2px;
-    box-shadow: 5px 5px #ac1122; /* Resetting box-shadow */
+    box-shadow: 5px 5px #ac1122; /* Resetting box-shadow
 }
 
-/*.slide-in {
+.slide-in {
     transform: translateY(0);
     opacity: 1;
-} */
+}
 
 .heading {
     padding: 10px 0;
