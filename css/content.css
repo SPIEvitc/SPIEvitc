@@ -9,7 +9,7 @@
     line-height: 20px;
 /*     transform: translateY(100%) scale(0.95);
     opacity: 0;
-    transition: transform 0.5s, opacity 0.5s, border-width 0.5s, box-shadow 0.5s; /* Added box-shadow transition */ */
+    transition: transform 0.5s, opacity 0.5s, border-width 0.5s, box-shadow 0.5s; /* Added box-shadow transition */ 
 }
 
 /* .why_spie.slide-in, .what.slide-in, .future.slide-in {
