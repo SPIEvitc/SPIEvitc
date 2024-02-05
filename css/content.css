@@ -1,0 +1,216 @@
+.why_spie, .what, .future {
+    margin: 2.5%;
+    text-align: justify;
+    width: 95%;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px #ac1122;
+    line-height: 20px;
+    transform: translateY(100%) scale(0.95);
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s, border-width 0.5s, box-shadow 0.5s; /* Added box-shadow transition */
+}
+
+.why_spie.slide-in, .what.slide-in, .future.slide-in {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    border-width: 2px;
+    box-shadow: 5px 5px #ac1122; /* Resetting box-shadow */
+}
+
+.slide-in {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.heading {
+    padding: 10px 0;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.why_spie:hover, .what:hover, .future:hover {
+    animation: hover_border 0.5s ease forwards; /* Apply the animation on hover */
+}
+
+@keyframes hover_border {
+    from {
+        box-shadow: 5px 5px 0px 0px #ac1122;
+    }
+    to {
+        box-shadow: 0px 0px 5px 5px #ac1122; /* Adjust the values as needed */
+    }
+}
+/*---------Division----------*/
+.division{
+    width: 95%;
+    margin: 0 2.5%;
+    height: 0px;
+    border: #ac1122 2px;
+    border-style: double;
+}
+/*---------MEET OUR TEAM-------------*/
+.team h1,.about h1{
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.red{
+    color: #ac1122;
+}
+.team h3{
+    text-align: center;
+}
+.team-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    width: 18.5em;
+    height: 24.5em;
+    background: #171717;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border: #ac1122 solid;
+  }
+  
+  .card22 span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 1em;
+  }
+  
+  .card22 .info {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 0.62em;
+    line-height: 1.2em;
+    margin: 0.5em;
+  }
+  
+  .card22 .img1 {
+    width: 10.0em;
+    height: 10.0em;
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  img{
+    width: 10em;
+    height: 10em;
+  }
+  
+  .card22 .share {
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .card22 a {
+    color: white;
+    transition: .4s ease-in-out;
+  }
+  
+  /* .card svg:hover {
+        transform: translateY(-2PX);
+  }
+   */
+  .card22 button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+  }
+  
+  .card22 button:hover {
+    background: #ac1122;
+    color: white;
+    cursor: pointer;
+  }
+.profilecards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    justify-items: center;
+    padding: 10px;
+}
+
+.individual_card{
+    padding: 10px;
+}
+
+@media (max-width:1276px){
+    .profilecards{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media (max-width:972px){
+    .profilecards{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:653px){
+    .profilecards{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+.logo img{
+  height: 25px;
+}
+
+.img1{
+  overflow: hidden;
+  position: relative;
+  top:10px;
+}
+
+
+
+/*------test card--------*/
+.card11 {
+    width: 18.5em;
+    height: 24.5em;
+    background-image: linear-gradient(163deg,#ac1122 0%, white 100%);
+    border-radius: 20px;
+    transition: all .3s;
+   }
+   
+   .card22 {
+    width: 18.5em;
+    height: 24.5em;
+    background-color: #1a1a1a;
+    border-radius:20px;
+    transition: all .2s;
+   }
+   
+   .card22:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+   }
+   
+   /* .card11a:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+   } */
+
+.share a:hover{
+    color: #ac1122;
+    transform: translateY(-2px);
+}
