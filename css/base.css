@@ -4,6 +4,20 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 *::before {
 	box-sizing: border-box;
 }
+::-webkit-scrollbar {
+    width: 4px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.7); 
+    border-radius: 1px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #ac1122; 
+	background-color: #ac1122;
+}
 
 html {
 	background: #000;
@@ -367,5 +381,21 @@ nav .logo{
 }
 
 .totop:hover{
-	background-color: #ac1122;
+	/* background-color: #ac1122; */
+	animation:top 1s;
+}
+footer{
+	text-align: center;
+	font-size: 15px;
+	position: relative;
+	bottom: 8px;
+}
+@keyframes top {
+	from{
+		background-color: white;
+	}
+	to{
+		background-color: #ac1122;
+		border: #ac1122;
+	}
 }
