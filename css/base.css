@@ -381,7 +381,6 @@ nav .logo{
 }
 
 .totop:hover{
-<<<<<<< HEAD
 	/* background-color: #ac1122; */
 	animation:top 1s;
 }
@@ -400,8 +399,3 @@ footer{
 		border: #ac1122;
 	}
 }
-=======
-	background-color: #ac1122;
-	border:#ac1122 2px solid;
-}
->>>>>>> 65341b15f73b25ef6e8024c48e241e7cba2334d4
