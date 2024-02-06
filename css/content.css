@@ -214,3 +214,29 @@
     color: #ac1122;
     transform: translateY(-2px);
 }
+
+
+
+/*-----------EVENT--------------*/
+.event_cards{
+    margin:0px 30px 30px 0px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.event_poster,.event_poster img{
+    height: 400px;
+    width: 380px;
+    /* background-image: url(/images/Adi.jpg); */
+    /* margin: 40px; */
+    /* background-size: cover; */
+    margin: 10px 10px; 
+    padding: 0px 20px;
+}
+
+/*-----------Contact US-------------*/
+.contactUsDetails{
+    font-size: 12px;
+    margin-left: 40px;
+    line-height: 10px;
+}
