@@ -50,7 +50,7 @@
     .division{
         margin-top: 40px;
     }
-    .team h1{
+    .team h1,.about h1{
         font-size: 35px;
     }
     .totop{
@@ -100,7 +100,7 @@
     .division{
         margin-top: 40px;
     }
-    .team h1{
+    .team h1,.about h1{
         font-size: 30px;
     }
     .totop{
