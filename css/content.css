@@ -99,7 +99,7 @@
     color: white;
     display: block;
     text-align: center;
-    
+
     font-size: 0.82em;
     line-height: 1.1em;
     margin: 0.7em;
@@ -258,7 +258,7 @@
     display: flex;
     justify-content: center;
 }
-.event_poster,.event_poster img{
+.event_poster{
     height: 400px;
     width: 380px;
     /* background-image: url(/images/Adi.jpg); */
@@ -266,6 +266,21 @@
     /* background-size: cover; */
     margin: 10px 10px; 
     padding: 0px 20px;
+}
+.event_poster img{
+    height: 400px;
+    width: 380px;
+}
+.event_poster:hover,.event_poster img:hover{
+    animation: scaling 0s forwards;
+}
+@keyframes scaling {
+    from{
+        transform: none;
+    }
+    to{
+        transform: scale(1.01);
+    }
 }
 
 /*-----------Contact US-------------*/
