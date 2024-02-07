@@ -59,6 +59,13 @@
 .red{
     color: #ac1122;
 }
+.team_heading{
+    text-align: center;
+    font-size: 40px;
+    /* text-decoration: underline; */
+    /* color: #ac1122; */
+    text-transform: uppercase;
+}
 .team h3{
     text-align: center;
 }
@@ -92,14 +99,14 @@
     color: white;
     display: block;
     text-align: center;
-    font-size: 0.62em;
-    line-height: 1.2em;
+    font-size: 0.72em;
+    line-height: 1.1em;
     margin: 0.5em;
   }
   
   .card22 .img1 {
-    width: 10.0em;
-    height: 10.0em;
+    width: 9.0em;
+    height: 9.0em;
     background: white;
     border-radius: 15px;
     margin: auto;
@@ -151,6 +158,13 @@
     justify-items: center;
     padding: 10px;
 }
+.facultyCoordinator{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+    justify-items: center;
+    padding: 10px;
+}
 
 .individual_card{
     padding: 10px;
@@ -170,6 +184,19 @@
     .profilecards{
         grid-template-columns: repeat(1,1fr);
     }
+    .facultyCoordinator{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .team_heading{
+        display: none;
+    }
+    .team h1,.about h1{
+        /* margin-left: 40px; */
+        margin-top: 50px;
+        margin-right: 10px;
+        text-align: center;
+        font-size: 50px;
+    }
 }
 
 .logo img{
@@ -181,7 +208,13 @@
   position: relative;
   top:10px;
 }
-
+.img12 img{
+    height: 12.5em;
+    width: 12.5em;
+    border-radius: 15px;
+    margin:1.5em 3em;
+    margin-bottom: 0px;
+}
 
 
 /*------test card--------*/

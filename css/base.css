@@ -35,6 +35,19 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+header{
+	animation: onload 1s ease-in;
+}
+@keyframes onload {
+	from{
+		position: relative;
+		top:-100px;
+	}
+	to{
+		position: relative;
+		top:0px;
+	}
+}
 
 /* Fade effect */
 .js body {
