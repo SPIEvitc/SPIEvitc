@@ -129,6 +129,12 @@
     color: white;
     transition: .4s ease-in-out;
   }
+.col {
+     width: 33.33%;
+  float: left;
+}
+
+
   
   /* .card svg:hover {
         transform: translateY(-2PX);
